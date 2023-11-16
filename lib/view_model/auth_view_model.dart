@@ -1,8 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:wapp/utils/utils.dart';
+import 'package:wapp/view/auth/signup_screen.dart';
+import 'package:wapp/view/home%20section/bottom_navbar.dart';
 
-import '../view/screens/weather_screen.dart';
+import '../view/home section/home_screen.dart';
 
 class AuthViewModel with ChangeNotifier {
   bool isLoding = false;
@@ -25,7 +27,7 @@ class AuthViewModel with ChangeNotifier {
       if (context.mounted) {
         Navigator.of(context).pushAndRemoveUntil(
             CupertinoPageRoute(
-              builder: (context) => const WeatherScreen(),
+              builder: (context) => BottomNavBar(),
             ),
             (Route<dynamic> route) => false);
       }
@@ -46,6 +48,18 @@ class AuthViewModel with ChangeNotifier {
       isLoding = false;
       notifyListeners();
       if (!context.mounted) return;
+    }
+  }
+
+  // sign out
+  void signOut({required BuildContext context}) async {
+    await FirebaseAuth.instance.signOut();
+    if (context.mounted) {
+      Navigator.of(context).pushAndRemoveUntil(
+          CupertinoPageRoute(
+            builder: (context) => const LoginScreen(),
+          ),
+          (Route<dynamic> route) => false);
     }
   }
 }

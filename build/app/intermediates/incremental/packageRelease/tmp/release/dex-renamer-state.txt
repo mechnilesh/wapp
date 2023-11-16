@@ -1,0 +1,4 @@
+#Mon Nov 06 14:11:33 IST 2023
+base.0=/Users/nileshkumarsingh/Documents/Projects/wapp/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

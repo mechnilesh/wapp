@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:wapp/routes/route_names.dart';
 
-import '../view/screens/weather_screen.dart';
+import '../view/home section/home_screen.dart';
 
 class GeneratedRoutes {
   static MaterialPageRoute generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case RouteNames.weatherScreen:
         return MaterialPageRoute(
-          builder: (_) => const WeatherScreen(),
+          builder: (_) => const HomeScreen(),
         );
       default:
         return MaterialPageRoute(

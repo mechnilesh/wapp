@@ -1,0 +1,12 @@
+com.baseflow.geocoding.geocoding_android-jetified-window-java-1.0.0-beta04-0 /Users/nileshkumarsingh/.gradle/caches/transforms-3/689adc71e6edd5d3fe72b27feee4b5c4/transformed/jetified-window-java-1.0.0-beta04/res
+com.baseflow.geocoding.geocoding_android-jetified-annotation-experimental-1.1.0-1 /Users/nileshkumarsingh/.gradle/caches/transforms-3/6d1e7b061dd89406f4b1609f698fd5d4/transformed/jetified-annotation-experimental-1.1.0/res
+com.baseflow.geocoding.geocoding_android-core-1.6.0-2 /Users/nileshkumarsingh/.gradle/caches/transforms-3/846fb6887fd9c6ce0c267760fb941513/transformed/core-1.6.0/res
+com.baseflow.geocoding.geocoding_android-jetified-window-1.0.0-beta04-3 /Users/nileshkumarsingh/.gradle/caches/transforms-3/9e95f1d5fcb79e11622bbda587e494cc/transformed/jetified-window-1.0.0-beta04/res
+com.baseflow.geocoding.geocoding_android-main-4 /Users/nileshkumarsingh/.pub-cache/hosted/pub.dev/geocoding_android-2.1.2/android/src/main/res
+com.baseflow.geocoding.geocoding_android-release-5 /Users/nileshkumarsingh/.pub-cache/hosted/pub.dev/geocoding_android-2.1.2/android/src/release/res
+com.baseflow.geocoding.geocoding_android-pngs-6 /Users/nileshkumarsingh/Documents/Projects/wapp/build/geocoding_android/generated/res/pngs/release
+com.baseflow.geocoding.geocoding_android-resValues-7 /Users/nileshkumarsingh/Documents/Projects/wapp/build/geocoding_android/generated/res/resValues/release
+com.baseflow.geocoding.geocoding_android-rs-8 /Users/nileshkumarsingh/Documents/Projects/wapp/build/geocoding_android/generated/res/rs/release
+com.baseflow.geocoding.geocoding_android-mergeReleaseResources-9 /Users/nileshkumarsingh/Documents/Projects/wapp/build/geocoding_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.geocoding.geocoding_android-mergeReleaseResources-10 /Users/nileshkumarsingh/Documents/Projects/wapp/build/geocoding_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.geocoding.geocoding_android-merged_res-11 /Users/nileshkumarsingh/Documents/Projects/wapp/build/geocoding_android/intermediates/merged_res/release

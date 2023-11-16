@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             const Text(
-              "Login Here",
+              "Sign-Up Here",
               style: TextStyle(color: Colors.white, fontSize: 30),
             ),
             Column(

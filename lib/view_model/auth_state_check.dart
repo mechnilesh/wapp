@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:wapp/view/screens/weather_screen.dart';
 import '../view/auth/signup_screen.dart';
+import '../view/home section/bottom_navbar.dart';
 
 class AuthStateCheck extends StatefulWidget {
   const AuthStateCheck({super.key});
@@ -34,7 +34,7 @@ class _AuthStateCheckState extends State<AuthStateCheck> {
         Navigator.pushAndRemoveUntil(
           context,
           CupertinoPageRoute(
-            builder: (ctx) => const WeatherScreen(),
+            builder: (ctx) => BottomNavBar(),
           ),
           (route) => false,
         );
